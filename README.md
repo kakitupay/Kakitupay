@@ -3,9 +3,8 @@
 
 [![Build Status](https://img.shields.io/travis/dingo/api/master.svg?style=flat-square)](https://travis-ci.org/dingo/api)
 [![License](https://img.shields.io/packagist/l/dingo/api.svg?style=flat-square)](LICENSE)
-[![Development Version](https://img.shields.io/packagist/vpre/dingo/api.svg?style=flat-square)](https://packagist.org/packages/dingo/api)
-[![Monthly Installs](https://img.shields.io/packagist/dm/dingo/api.svg?style=flat-square)](https://packagist.org/packages/dingo/api)
-[![StyleCI](https://styleci.io/repos/18673522/shield)](https://styleci.io/repos/18673522)
+[![Development Version](https://img.shields.io/packagist/vpre/dingo/api.svg?style=flat-square)](https://packagist.org/packages/edwinmugendi/sapamapay)
+[![Monthly Installs](https://img.shields.io/packagist/dm/dingo/api.svg?style=flat-square)](https://packagist.org/packages/edwinmugendi/sapamapay)
 
 ## SapamaPay API
 This library is an API wrapper to the following [Safaricom MPESA API's](https://developer.safaricom.co.ke/)
