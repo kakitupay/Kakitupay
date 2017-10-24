@@ -1007,6 +1007,7 @@ class MpesaApi {
         $this->response = array(
             'Environment' => $this->configs['Environment'],
             'Name' => $this->actual_api['name'],
+            'ApiDocsLink' => $this->actual_api['link'],
             'HttpVerb' => $this->actual_api['type'],
             'HttpStatusCode' => '' . $http_status_code,
             'HttpStatusMessage' => $this->http_status_code[$http_status_code],
