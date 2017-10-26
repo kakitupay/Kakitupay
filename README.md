@@ -26,7 +26,7 @@ PHP >=4.0.2
 
 Add `edwinmugendi/sapamapay` to `composer.json`.
 ```
-"edwinmugendi/sapamapay": "master"
+"edwinmugendi/sapamapay": "dev-master"
 ```
 
 Run `composer update` to pull down the latest version.
