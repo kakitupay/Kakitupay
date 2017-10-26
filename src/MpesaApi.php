@@ -998,7 +998,9 @@ class MpesaApi {
         //Set http header
         http_response_code($http_status_code);
 
-        $response_json = json_decode($response, true);
+        if ($response) {
+            $response_json = json_decode($response, true);
+        }//E# if statement
 
         if ((!$response) || (json_last_error() !== 0)) {
             $response_json = array();
