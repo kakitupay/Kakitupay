@@ -1006,13 +1006,18 @@ class MpesaApi {
             $response_json = array();
         }//E# if statement
 
+        if (is_array($this->parameters)) {
+            //Remove these indexes for security purposes
+            unset($this->parameters['SecurityCredential']);
+        }//E# if statement
+        //Unset Security
         $this->response = array(
             'Environment' => $this->configs['Environment'],
             'Name' => $this->actual_api['name'],
             'ApiDocsLink' => $this->actual_api['link'],
             'HttpVerb' => $this->actual_api['type'],
             'HttpStatusCode' => '' . $http_status_code,
-            'HttpStatusMessage' => $this->http_status_code[$http_status_code],
+            'HttpStatusMessage' => $http_status_code ? $this->http_status_code[$http_status_code] : 0,
             'Message' => $message,
             'Response' => $response_json,
             'Endpoint' => $this->endpoint,
