@@ -1,10 +1,4 @@
-
-![](https://raw.githubusercontent.com/edwinmugendi/sapamapay/master/img/sapamaerp.jpg)
-
-[![Build Status](https://img.shields.io/travis/dingo/api/master.svg?style=flat-square)](https://travis-ci.org/dingo/api)
-[![License](https://img.shields.io/packagist/l/dingo/api.svg?style=flat-square)](LICENSE)
-
-## SapamaPay API
+## Kakitupay API
 This library is an API wrapper to the following [Safaricom MPESA API's](https://developer.safaricom.co.ke/)
 
 - [Lipa Na M-Pesa Online Payment API](https://developer.safaricom.co.ke/lipa-na-m-pesa-online/apis/post/stkpush/v1/processrequest)
