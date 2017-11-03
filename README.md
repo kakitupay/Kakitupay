@@ -247,4 +247,4 @@ array (size=10)
 ```
 
 ##Help
-For API integration assistance, bugs or assistance, kindly reach me on <a href="mailto:edwinmugendi@gmail.com">edwinmugendi@gmail.com</a>
+For API integration assistance, bugs or assistance, kindly reach me on <a href="mailto:kakitu@kakitu.co.ke">kakitu@kakitu.co.ke</a>
